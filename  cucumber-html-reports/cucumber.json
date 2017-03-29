@@ -1,0 +1,58 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Successful login with valid credentials",
+        "description": "",
+        "id": "login-action;successful-login-with-valid-credentials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 578410330,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": ": I am on home page",
+            "match": {
+              "location": "Login.java:13"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 42663,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": ": I enter credentials and click ok",
+            "match": {
+              "location": "Login.java:18"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 52578,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": ": Login should happen with no errors",
+            "match": {
+              "location": "Login.java:23"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login Action",
+    "description": "",
+    "id": "login-action",
+    "keyword": "Feature",
+    "uri": "Login.feature"
+  }
+]
