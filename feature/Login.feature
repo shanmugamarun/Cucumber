@@ -1,3 +1,4 @@
+@Login
 Feature: Login Action
 
   Scenario: Successful login with valid credentials

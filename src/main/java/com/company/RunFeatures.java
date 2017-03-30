@@ -9,8 +9,8 @@ import org.junit.runner.RunWith;
 @RunWith(Cucumber.class)
 
 
-
-@CucumberOptions(monochrome = true,  features = "src/main/java/com/company/features", format = { "pretty",
+//
+@CucumberOptions(monochrome = true, features = "src/test/resources",format = { "pretty",
         "html: cucumber-html-reports",
         "json: cucumber-html-reports/cucumber.json" },   glue = "stepDefinition")
 public class RunFeatures {

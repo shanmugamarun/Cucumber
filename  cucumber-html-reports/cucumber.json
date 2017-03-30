@@ -12,7 +12,7 @@
         "steps": [
           {
             "result": {
-              "duration": 578410330,
+              "duration": 1095651108,
               "status": "passed"
             },
             "line": 4,
@@ -24,7 +24,7 @@
           },
           {
             "result": {
-              "duration": 42663,
+              "duration": 93739,
               "status": "passed"
             },
             "line": 5,
@@ -36,7 +36,7 @@
           },
           {
             "result": {
-              "duration": 52578,
+              "duration": 80820,
               "status": "passed"
             },
             "line": 6,
@@ -53,6 +53,136 @@
     "description": "",
     "id": "login-action",
     "keyword": "Feature",
-    "uri": "Login.feature"
+    "uri": "Simple/Login.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 8,
+        "name": "Logout functionality",
+        "description": "",
+        "id": "logout-of-an-application;logout-functionality;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 234648,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "user navigates to application",
+            "match": {
+              "location": "Logout.java:13"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 27368204,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I enter Username as \"username1\" and Password as \"password1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "username1",
+                  "offset": 21
+                },
+                {
+                  "val": "password1",
+                  "offset": 49
+                }
+              ],
+              "location": "Logout.java:18"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 128591,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "login should be unsuccessful",
+            "match": {
+              "location": "Logout.java:25"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 9,
+        "name": "Logout functionality",
+        "description": "",
+        "id": "logout-of-an-application;logout-functionality;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 56183,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "user navigates to application",
+            "match": {
+              "location": "Logout.java:13"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 123784,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I enter Username as \"username2\" and Password as \"password2\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "username2",
+                  "offset": 21
+                },
+                {
+                  "val": "password2",
+                  "offset": 49
+                }
+              ],
+              "location": "Logout.java:18"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 72407,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "login should be unsuccessful",
+            "match": {
+              "location": "Logout.java:25"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Logout of an application",
+    "description": "",
+    "id": "logout-of-an-application",
+    "keyword": "Feature",
+    "uri": "Simple/Logout.feature"
   }
 ]
